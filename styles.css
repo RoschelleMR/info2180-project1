@@ -101,7 +101,7 @@ nav a:hover {
   border-style: none;
   border-color: #e2e8f0;
   border-radius: 5px;
-  box-shadow: 0 2px 8px #424242;
+  box-shadow: 0 1px 5px #646464;
 }
 
 .card img {
@@ -142,13 +142,13 @@ nav a:hover {
   text-align: center;
 }
 
-.testing .cta a {
+.cta .btn {
   color: white;
   background-color: #48bb78;
   border-radius: 5px;
   text-decoration: none;
 
-  padding: 10px;
+  padding: 20px;
   padding-top: 12px;
   padding-bottom: 15px;
 }
@@ -191,6 +191,10 @@ article a {
   column-gap: 15px;
 }
 
+.stories .container article:last-child {
+  margin-bottom: 30px;
+}
+
 /* NEWSLETTER */
 
 .newsletter {
@@ -198,12 +202,42 @@ article a {
   color: white;
 }
 
-.newsletter button {
+.newsletter .container {
+  padding: 120px 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.form-group {
+  border-radius: 5px;
+  flex: left;
+}
+
+#email {
+  padding: 15px 50px;
+  border: none;
+  border-radius: 2px;
+}
+
+.newsletter .btn {
   color: white;
   background-color: #5a67d8;
+  float: right;
+
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  padding: 10px 50px;
+  width: 150px;
 }
 
 footer {
   background-color: #4a5568;
   color: white;
+  padding: 20px;
 }
