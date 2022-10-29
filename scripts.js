@@ -11,6 +11,7 @@ window.addEventListener("load", function () {
     event.preventDefault();
 
     userEmail = email.value;
+
     if (userEmail) {
       validEmail();
       email.value = "";
@@ -20,6 +21,7 @@ window.addEventListener("load", function () {
     }
   }
 
+  // To clear an previous classname
   function clear() {
     if (message.classList.contains("valid")) {
       message.classList.remove("valid");
