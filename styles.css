@@ -236,6 +236,33 @@ form {
   width: 150px;
 }
 
+.newsletter .btn:hover {
+  cursor: pointer;
+}
+
+/* MESSAGE */
+
+.message.valid {
+  margin: 0 40px;
+  padding-top: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.message.invalid {
+  margin: 0 40px;
+  padding-top: 20px;
+
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+/* Added small functionality to highlight email */
+.userEmail {
+  color: rgb(51, 0, 218);
+}
+
+/* FOOTER */
+
 footer {
   background-color: #4a5568;
   color: white;
